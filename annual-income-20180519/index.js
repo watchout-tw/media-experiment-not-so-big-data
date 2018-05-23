@@ -1,3 +1,4 @@
+let targetID = 494
 let dataPoints = []
 
 // x: int as string, y: number
@@ -21,7 +22,7 @@ const officialData = {
   '2016': 48790,
   '2017': 49989
 }
-const speeches = require('./annual-income-20180519.json').speeches
+const speeches = require('./annual-income-20180523.json').speeches
 let speaker
 let lastX = '2008'
 
